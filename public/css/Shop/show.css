@@ -1,0 +1,28 @@
+.container{
+  height: 60.9rem;
+  padding: 3rem;
+  box-shadow: 0 1rem 2.5rem 0 rgb(0 0 0 / 20%);
+}
+.text_label{
+  text-align: center;
+  font-size: 3rem;
+}
+.value{
+  box-shadow: 0 1rem 2.5rem 0 rgb(0 0 0 / 10%);
+  width: 70rem;
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: #ffa96b;
+  font-weight: 700;
+  line-height: 8rem;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin: 4rem auto;
+}
+.btn.btn--orange{
+  margin-top: 8rem;
+  height: 5.7rem;
+  width: 9.7rem;
+  display: block;
+  line-height: 5.7rem;
+}

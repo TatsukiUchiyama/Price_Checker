@@ -1,0 +1,22 @@
+.container{
+  height: auto;
+  padding: 5rem;
+}
+
+.date_input{
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  height: 3rem;
+  width: 30rem;
+}
+
+.textarea{
+  width: 30rem
+}
+
+.btn.btn--orange{
+  margin-top: 17rem;
+}
+

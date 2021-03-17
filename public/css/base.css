@@ -1,0 +1,155 @@
+html{
+  width: 144rem;
+}
+
+header{
+  padding: 2rem;
+  min-width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 192, 134);
+}
+
+main{
+  /* width: 144rem; */
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.container{
+  background-color: #ffe3b9;
+  height: 609px;
+  margin: 3rem auto;
+  border-radius: 15px;
+  box-shadow: 0 1rem 2.5rem 0 rgb(0 0 0 / 20%);
+}
+
+.app_logo{
+  font-family: 'Titan One', cursive;
+  font-size:3rem;
+  color: #fff;
+}
+.input_content{
+  width: 30rem;
+  height: 9rem;
+  margin: 0 auto;
+}
+
+.label_text{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0;
+}
+
+.text_box{
+  height: 3rem;
+  width: 30rem;
+  margin: rem auto 1rem;
+  display: block;
+}
+.err_message{
+  font-size: 1rem;
+  text-align: center;
+}
+.red{
+  color:red;
+}
+.text_center{
+  text-align: center;
+}
+
+.textarea{
+  height: 18rem;
+  width: 25rem;
+  resize:none;
+}
+
+button{
+  height: 5rem;
+  width: 10rem;
+  font-size:2rem;
+  margin: 0 auto;
+  display: block;
+}
+
+footer{
+  /* width: 144rem; */
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  background-color: rgb(255, 192, 134);
+}
+
+.select_box{
+  margin: 0 auto;
+  display: block;
+  font-size: 2rem;
+  height: 3rem;
+  width: 30rem;
+}
+option{
+  text-align: center;
+  align-items: center;
+  
+}
+
+.Explanatory_text{
+  font-size: 2rem;
+  text-align:center;
+  line-height: 3rem;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+} 
+
+
+.btn,
+a.btn,
+button.btn {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  color:#000;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2.5rem 0 rgb(0 0 0 / 10%);
+
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #000;
+  background-color: #ffa96b;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #000;
+  background: #ffb986;
+}
+.btn{
+  background: #ffa96b;
+  transition: background .3s;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus{
+  outline: none;
+  background: #ffbf9d;
+  color:#5f5f5f;
+}
+.btn::-moz-focus-inner{ /*Firefox用*/
+  border: none;
+}

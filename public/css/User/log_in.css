@@ -1,0 +1,30 @@
+.log_in_container{
+  width: 45rem;
+  height: 37.9rem;
+  border-radius: 1.5rem;
+  background-color: #ffe3b9;
+  box-shadow: 0 1rem 2.5rem 0 rgb(0 0 0 / 20%);
+  padding: 3rem;
+  margin: 3rem auto;
+}
+
+.input_content{
+  margin-bottom: 3rem;
+}
+.bottom_container{
+  width: 80rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+.sign_in{
+  font-size:2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.reset_password{
+  font-size:2rem;
+  text-align: center;
+  padding: 2rem;
+}
+

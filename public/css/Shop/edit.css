@@ -1,0 +1,36 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+fieldset{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20rem;
+}
+
+.radio-inline__input {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.radio-inline__label {
+    font-size:2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-right: 1.8rem;
+    border-radius: .3rem;
+    transition: all .2s;
+}
+
+.radio-inline__input:checked + .radio-inline__label {
+    background: #ffa96b;
+    color: #000;
+    text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input:focus + .radio-inline__label {
+    outline-offset: -2px;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
