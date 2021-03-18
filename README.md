@@ -50,6 +50,9 @@ Atom
 
 # Price Checker DB設計
 
+ソースにDB.sqlというファイルを追加しましたのでこちらをインポートしていただければ大丈夫です。
+
+
 
 ## usersテーブル
 |Column     |Type  |Options                 |
