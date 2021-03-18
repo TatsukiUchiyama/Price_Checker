@@ -34,7 +34,7 @@
 
       if (empty($_POST['password'])) {
         $err['password'] = 'パスワードは必須項目です。';
-      }elseif(!preg_match("/^(?=.*?[a-z])(?=.*?\d)[a-z\d]{8,50}$/i)", $_POST['password'])){
+      }elseif(!preg_match("/^(?=.*?[a-z])(?=.*?\d)[a-z\d]{8,50}$/i", $_POST['password'])){
         $err['password'] = 'パスワード8文字以上で英字・数字を1文字ずつ以上利用してください。';
       }
 

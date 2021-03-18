@@ -28,7 +28,10 @@ class User extends Db {
         $sth->bindParam(':email', $email, PDO::PARAM_STR);
         $sth->bindParam(':password', $password, PDO::PARAM_STR);
         $sth->execute();
+        $result = $this->dbh->lastInsertId();
         $this->dbh->commit();
+
+        return $result;
       }catch (PDOException $e){
         echo $e->getMessage();
         $this->dbh->rollBack();

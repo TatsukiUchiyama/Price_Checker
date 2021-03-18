@@ -41,11 +41,14 @@
 
     if(empty($err)){
       $user = new UserController();
-      $err['email'] = $user->sign_up();
-      if($err['email'] != 'そのメールアドレスは既に使用されています。'){
+      $result = $user->sign_up();
+      if($result != 'そのメールアドレスは既に使用されています。'){
         $_SESSION['log_in'] = $_POST;
+        $_SESSION['log_in']['id'] = $result;
         header('Location: /Items/index.php');
         exit();
+      }else{
+        $err['email'] = 'そのメールアドレスは既に使用されています。';
       }
     }
   }
